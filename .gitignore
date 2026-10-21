@@ -1,0 +1,24 @@
+﻿# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Histopathology datasets and generated results
+Data/
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+
+# Trained model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Local configuration
+.env
+.env.*
